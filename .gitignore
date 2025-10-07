@@ -1,0 +1,13 @@
+# Compiled binaries
+encoder
+*.o
+*.exe
+
+# IDE files
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
