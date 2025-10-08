@@ -5,6 +5,5 @@
 using namespace std;
 
 int hash_function(string text) {
-    // Implement your own hash function here
-    return 1;
+    
 }
