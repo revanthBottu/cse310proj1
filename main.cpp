@@ -48,7 +48,7 @@ int main() {
         slot_sizes[i] = 0;
     }
     
-    for (int i = 0; i < n; i++) {
+    for (int i = 1; i < n; i++) {
         int slot = hash_function(texts[i]) % k;
         hash_table[slot][slot_sizes[slot]] = texts[i];
         slot_sizes[slot]++;
