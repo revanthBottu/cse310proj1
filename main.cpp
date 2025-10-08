@@ -85,7 +85,7 @@ int main() {
     double variance = variance_sum / k;
     double std_dev = sqrt(variance);
     
-    cout << std_dev << endl;
+    cout << fixed << setprecision(5) << std_dev << endl;
 
     return 0;
 }
